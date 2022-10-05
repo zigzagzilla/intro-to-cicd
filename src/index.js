@@ -1,5 +1,5 @@
-const sayHi = require('./index.js')
+function sayHi(name) {
+  return `Hello ${name}`
+}
 
-test("Says 'Hello Scottie' when 'Scottie' is passed", () => {
-  expect(sayHi('Scottie')).toBe('Hello Scottie')
-})
+module.exports = sayHi
