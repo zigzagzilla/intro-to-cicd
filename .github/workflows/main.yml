@@ -12,10 +12,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run a one-line script
-        run: echo "Starting our CI workflow!"
-
-      - name: Installing dependencies...
-        run: npm install
-
-      - name: Testing our files...
-        run: npm test
+        run: echo "Write your CI workflow here!"
