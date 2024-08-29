@@ -9,7 +9,7 @@ jobs:
     steps:
       # checks out the current git commit so we can use it.
       # read more at https://github.com/orgs/community/discussions/25682
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Run a one-line script
         run: echo "Write your CI workflow here!"
